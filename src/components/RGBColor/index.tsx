@@ -1,12 +1,12 @@
 import Input from "../Input";
-import useRGB from "../../hooks/useRGB";
 import Title from "../Title";
 import Line from "../Line";
 import Block from "../Block";
+import useRGB from "../../hooks/useRGB";
 
 export default function RGBColor() {
   const { r, g, b, setR, setG, setB, color } = useRGB();
-  
+
   return (
     <Block color={color}>
       <Title>RGB - Red, Green, Blue</Title>
