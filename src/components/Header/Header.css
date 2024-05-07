@@ -1,0 +1,45 @@
+img {
+    height: 80px;
+    border-radius: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+}
+
+.img {
+    padding-left: 50px;
+    margin: 15px;
+}
+
+button {
+    font-style: none;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.Link {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.Link:hover {
+    color: #333;
+}
